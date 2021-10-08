@@ -28,7 +28,7 @@ body{
 .contenedor{
    max-width: 128rem;
    width: 90%;
-   margin;0 auto;
+   margin:0 auto;
 }
 
 a{
@@ -95,7 +95,7 @@ img{
    .barra{
       display: flex;
       justify-content: space-between;
-      align-items: center;
+      align-items:center;
    }
 }
 
@@ -199,7 +199,7 @@ img{
 .widget-curso__label,
 .widget-curso__info{
    font-size: 2rem;
-}
+} 
 
 /*Footer*/
 .footer{
@@ -213,7 +213,59 @@ img{
 @media(min-width:768px){
    .sobre-nosotros{
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns:repeat(2, 1fr);
       column-gap: 2rem;
    }
 }
+
+/*Sección "nuestros cursos"*/
+
+.curso{
+   padding: 3rem 0;
+   border-bottom: 1px solid var(--gris);
+}
+
+@media(min-width:768px){
+   .curso{
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      column-gap: 2rem;
+   }
+}
+
+.curso:las-of-type{
+   border: none;
+}
+
+.curso__label {
+   font-family: var(--fuenteHeading);
+   font-weight: bold;
+}
+
+.curso__info {
+   font-weight: normal;
+}
+
+.curso__label,
+.curso__info {
+   font-size: 2rem;
+}
+
+/*Entrada de blog*/
+
+@media(min-width:768px){
+   .contenedor-entrada{
+      margin: 1rem;
+   }
+}
+
+/*Sección de Contácto*/
+
+.contacto-bg{
+   background-image: url(../img/contacto.jpg);
+   height: 40rem;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+/*Formulario sección "contácto*/

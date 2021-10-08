@@ -38,19 +38,35 @@
    <!--contenido -->
    
    <main class="contenedor">
-        <h3 class="centrar-texto">Sobre Nosotros</h3>
+        <h3 class="centrar-texto">Contácto</h3>
         
-        <div class="sobre-nosotros">
-           <div class="sobre-nosotros__imagen">
+        <div class="contacto-bg">
+           <form class="formulario">
               
-           <img src="img/nosotros.jpg" alt="imagen nosotros"> 
-           </div>
-        </div>
-        
-        <div class="sobre-nosotros__texto">
-           <p> Integer at sem varius, mattis magna sit amet, tincidunt risus. Nullam nisi felis, lobortis at ligula in, eleifend faucibus ante. Pellentesque vel scelerisque risus. Suspendisse dapibus quam tortor, sit amet hendrerit ipsum imperdiet eget. In ut lectus posuere, ultrices leo et, tristique enim. Nunc congue consequat rhoncus. Nulla in tortor venenatis, laoreet magna vitae, aliquet orci. Quisque quis velit volutpat, tristique ex vitae, pretium magna. Nam finibus in magna ac ultrices. Aenean eros magna, pharetra at viverra non, euismod non arcu. Nam malesuada nec elit vel fringilla. Maecenas sodales vulputate nisl. Aliquam urna elit, ultricies vitae nibh non, scelerisque viverra justo.</p>
-
-            <p>Quisque lacinia, magna eget lacinia consectetur, ex neque lobortis massa, id aliquam turpis purus id ipsum. Curabitur venenatis tellus eget tortor varius, vel </p> 
+              <div class="campo">
+                 <label for="nombre">Nombre</label>
+                 <input type="texto" placeholder="Tu Nombre" id="nombre">
+              </div> 
+              
+              <div class="campo">
+                 <label for="email">E-mail</label>
+                 <input type="email" placeholder="Tu Email" id="email">
+              </div>
+              
+              <div class="campo">
+                 <label for="Teléfono">Teléfono</label>
+                 <input type="tel" placeholder="Tu Teléfono" id="telefono">
+              </div>
+              
+              <div class="campo">
+                 <label for="mensaje">Mensaje</label>
+                 <textarea id="mensaje" placeholder="Tú Mensaje"></textarea>
+              </div>
+              
+               <divclass="campo">
+                  <input type="submit" value="Enviar" class="boton boton--primario"
+               </divclass>
+           </form>
         </div>
    </main> 
    
